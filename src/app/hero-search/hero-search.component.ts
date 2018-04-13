@@ -1,8 +1,9 @@
+///<reference path="../../../node_modules/@angular/core/src/metadata/directives.d.ts"/>
 import { Component, OnInit } from '@angular/core';
 
 import { Observable } from 'rxjs/Observable';
-import { Subject }    from 'rxjs/Subject';
-import { of }         from 'rxjs/observable/of';
+import { Subject } from 'rxjs/Subject';
+// import { of } from 'rxjs/observable/of';
 
 import {
    debounceTime, distinctUntilChanged, switchMap
